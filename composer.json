@@ -1,0 +1,19 @@
+{
+    "name": "maverick/zipcrypt",
+    "description": "Encryption and Decryption of Zip file using php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lorenzorizzolo",
+            "email": "lolloriz36@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ZipCrypt\\ZipCrypt\\": "src/"
+        }
+    },
+    "require": {}
+}
