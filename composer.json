@@ -1,6 +1,6 @@
 {
     "name": "zipcrypt/zipcrypt",
-    "description": "Encryption and Decryption of Zip file using php",
+    "description": "Encryption and Decryption of all files into a zip file using php",
     "type": "library",
     "license": "MIT",
     "authors": [
