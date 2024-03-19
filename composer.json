@@ -1,5 +1,5 @@
 {
-    "name": "maverick/zipcrypt",
+    "name": "zipcrypt/zipcrypt",
     "description": "Encryption and Decryption of Zip file using php",
     "type": "library",
     "license": "MIT",
