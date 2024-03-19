@@ -1,9 +1,10 @@
 <?php
 
-require_once "vendor/autoload.php";
+require_once __DIR__."/../src/ZipCrypt.php";
 
 use ZipCrypt\ZipCrypt\ZipCrypt;
 
-$zipcrypt = new ZipCrypt("file.zip", "password", "kjbvclhfxdjvdhzcf");
 
+$zipcrypt = new ZipCrypt(__DIR__."/../file.zip", "secret", "kjbvclhfxdjvdhzcf");
 
+$zipcrypt->decryptZipFiles();
